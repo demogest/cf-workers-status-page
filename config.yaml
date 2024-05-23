@@ -15,7 +15,7 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id:blog
+  - id: blog
     name: Blog
     url: 'https://firmant.me'
     method: GET
