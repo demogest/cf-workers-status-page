@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: blog
     name: Blog
-    url: 'https://firmant.me'
+    url: 'https://www.firmant.me'
     method: GET
     expectStatus: 200
     linkable: true
