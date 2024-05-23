@@ -21,6 +21,13 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true
+
+  - id: image
+    name: Random Image
+    url: 'https://image.firmant.me'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
     
   - id: one-api
     name: One API
@@ -34,16 +41,19 @@ monitors:
     url: 'https://manga.firmant.me/'
     method: GET
     expectStatus: 200
+    linkable: false
 
   - id: npm
     name: Nginx Proxy Manager
     url: 'https://npm.firmant.me/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200
+    linkable: false
 
   - id: docker
     name: Dockge
     url: 'https://docker.firmant.me/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200
+    linkable: false
     
